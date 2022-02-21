@@ -13,9 +13,7 @@ import {
 export default function NotificationBanner(props) {
 
     const { setShowNotification, duration, colorScheme, showNotification, status, titleText, descriptionText } = props
-    const handleClose = () => {
-        setShowNotification(!showNotification)
-    }
+    const handleClose = () => { setShowNotification(!showNotification) }
 
     /***
      * Delay to close notification
@@ -25,7 +23,6 @@ export default function NotificationBanner(props) {
     const _closeOnDelay = (duration) => {
         // Set the date we're counting down to by current timestamp + X seconds 
         var countDownDate = new Date().getTime() + duration
-
         var x = setInterval(function () {
             var now = new Date().getTime();
             var distance = countDownDate - now;
@@ -76,5 +73,3 @@ export default function NotificationBanner(props) {
         </PresenceTransition>
     );
 }
-
-

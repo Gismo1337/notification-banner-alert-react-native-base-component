@@ -39,6 +39,7 @@ expo init my-app --template @native-base/expo-template
 
 ## Preview
 
+![Preview Banner Solo](https://github.com/Gismo1337/notification-banner-alert-react-native-base-component/blob/main/assets/bannerklein.png?raw=true)
 ![Preview Banner](https://github.com/Gismo1337/notification-banner-alert-react-native-base-component/blob/main/assets/demoimg.png?raw=true)
 
 ## 🔗 Links
