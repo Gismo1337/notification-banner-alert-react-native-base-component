@@ -37,7 +37,9 @@ expo init my-app --template @native-base/expo-template
 | `{titleText}` | `string` | **Required**. Event created successfully. |
 | `{descriptionText}` | `string` | **Required**. Your event is ready to join. Check Events Tab! |
 
+## Preview
 
+![Preview Banner](https://github.com/Gismo1337/notification-banner-alert-react-native-base-component/blob/main/assets/demoimg.png?raw=true)
 
 ## 🔗 Links
 [![devto](https://img.shields.io/badge/dev.to-000?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/gismo1337)

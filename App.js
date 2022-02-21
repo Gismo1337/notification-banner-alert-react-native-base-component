@@ -32,7 +32,7 @@ export default function App() {
   const colorScheme = 'success' // success, error, info, warning
   const titleText = 'Event created successfully.'
   const descriptionText = 'Your event is ready to join. Check Events Tab!'
-  const duration = 3000 // Time the notification will be shown before vanish in ms
+  const duration = 13000 // Time the notification will be shown before vanish in ms
 
 
   return (
