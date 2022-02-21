@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-
+import React from "react";
 import {
     Text,
     HStack,
@@ -10,7 +9,6 @@ import {
     PresenceTransition,
     VStack,
 } from "native-base";
-
 
 export default function NotificationBanner(props) {
 
@@ -58,7 +56,6 @@ export default function NotificationBanner(props) {
                 maxW="300"
                 status={status}
                 colorScheme={colorScheme}>
-
                 <VStack space={2} flexShrink={1} w="100%">
                     <HStack flexShrink={1} space={2} alignItems="center" justifyContent="space-between">
                         <HStack flexShrink={1} space={2} alignItems="center">
@@ -77,7 +74,6 @@ export default function NotificationBanner(props) {
                 </VStack>
             </Alert>
         </PresenceTransition>
-
     );
 }
 

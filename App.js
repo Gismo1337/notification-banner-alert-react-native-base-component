@@ -60,8 +60,6 @@ export default function App() {
             <Code>TOGGLE NOTIFICATION</Code>
             <Text>Button!</Text>
           </HStack>
-
-
           <Button
             colorScheme="primary"
             onPress={() => {
